@@ -1,13 +1,13 @@
-public class APLine
-{
+public class APLine {
+
 private int a;
 private int b;
 private int c;
 
 public APLine (int a, int b, int c){
-  this. a = a;
-  this. b = b;
-  this. c = c;
+  this.a = a;
+  this.b = b;
+  this.c = c;
   }
   public double getSlope(){
     return -1.0 * a / b;
